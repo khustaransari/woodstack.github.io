@@ -1,0 +1,328 @@
+
+#contact {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+    overflow: hidden;
+    background-image: url('../img/k(9).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact .section-header {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact .section-header h1{
+   text-align: center;
+   color: black;
+   background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   border-radius: 5px;
+   background-clip: text;
+   padding: 2rem 2rem;
+   font-weight: bold;
+  }
+  #contact .contact-about h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #007bff;
+  }
+  
+  #contact .contact-about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #888;
+  }
+  
+  #contact .social-links {
+    padding-bottom: 20px;
+  }
+  
+  #contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #007bff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #007bff;
+  }
+  
+  #contact .social-links a:hover {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  #contact .info {
+    color: #283d50;
+  }
+  @media screen and (max-width:765px)
+  {
+  .fa.fa-envelope
+  {
+    margin-right:16px;
+    margin-left: 15px;
+  }
+}
+  #contact .info i {
+    font-size: 21px;
+    color: #007bff;
+    float: left;
+    line-height: 1;
+  }
+  
+  #contact .info p {
+    padding: 0 0 10px 36px;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  #contact .form #sendmessage {
+    color: #007bff;
+    border: 1px solid #007bff;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #sendmessage.show,
+  #contact .form #errormessage.show,
+  #contact .form .show {
+    display: block;
+  }
+  
+  #contact .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #contact .form input,
+  #contact .form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  #contact .form button[type="submit"] {
+    background: linear-gradient(to right,rgb(142, 71, 209),rgb(194, 73, 224));
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  #contact .form button[type="submit"]:hover {
+    background: #0067d5;
+    cursor: pointer;
+  }
+  /* ===================fotter======================= */
+
+.foo
+{
+    background-color: #000;
+}
+.footer-area {
+    padding: 40px 0;
+  }
+  
+  .footer-head p {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-head h4 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer-logo {
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo h2 {
+    color: #fff;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .footer-logo h2 span {
+    color: #3ec1d5;
+  }
+  
+  .footer-icons ul li {
+    display: inline-block;
+  }
+  
+  .footer-icons ul li a {
+    border: 1px solid #000;
+    color: #f00;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .flicker-img>a {
+    float: left;
+    padding: 1px;
+    width: 100%;
+  }
+  .footer-content p
+  {
+      padding-right: 53px;
+  }
+  .col-lg-4,.col-md-4,.col-sm-6
+  {
+      padding: 0;
+      margin: 0;
+  }
+  @media screen and (max-width:990px)
+  {
+    .flicker-img img
+    {
+        width:10rem;
+    }
+    
+  .flicker-img a {
+    float: left;
+    padding: 1px;
+    width:100%;
+  }
+  }
+  @media screen and (max-width:764px)
+  {
+    .flicker-img img
+    {
+        width:10rem;
+    }
+    
+  .flicker-img a {
+    float: left;
+    padding: 1px;
+    width:100%;
+  }
+  }
+  .flicker-img img
+  {
+      width:100%;
+  }
+  .footer-icons {
+    margin-top: 30px;
+  }
+  
+  .footer-contacts p span {
+    color: #3EC1D5;
+    font-weight: 700;
+  }
+  
+  .popular-tag ul li {
+    display: inline-block;
+  }
+  
+  .footer-content {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .popular-tag ul li a:hover, .footer-icons ul li a:hover {
+    background: #3EC1D5;
+    border: 1px solid #3EC1D5;
+    color: #fff;
+  }
+  
+  .popular-tag ul li a {
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: #444;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px 3px;
+    padding: 5px 10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+    width: 70px;
+    text-align: center;
+  }
+  
+  .footer-area-bottom {
+    background: #000 none repeat scroll 0 0;
+    padding: 15px 0;
+  }
+  
+  .copyright-text a:hover {
+    text-decoration: underline;
+    color: #3EC1D5;
+  }
+  
+  .copyright-text a {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .copyright>p {
+    margin-bottom: 0;
+    color:white;
+  }
+  
+  .copyright a, .credits a {
+    color: #3EC1D5;
+  }
+  
+  .credits {
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+ 

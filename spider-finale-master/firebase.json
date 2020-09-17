@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "spider-finale-master",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

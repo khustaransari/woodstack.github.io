@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+    background: #e6e6e6;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100%;
+    left: 0;
+    overflow-x: hidden;
+}
+
+a, button { transition: all 0.3s ease; }
+a:hover,
+a:focus {
+	text-decoration: none;
+    outline: none;
+    background-color: palevioletred;
+}
+
+.tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 50px 35px; }
+
+.tm-top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: 119px;
+    background: white;
+}
+
+.tm-top-bar.active {
+    height: 60px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.tm-top-bar.active .navbar-expand-lg .navbar-nav .nav-link { padding: 20px 35px; }
+.tm-top-bar.active .navbar-brand { font-size: 1.4rem; }
+
+.tm-top-bar .navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.tm-top-bar.active .navbar-brand img { width: 40px; }
+.tm-top-bar-bg { height: 119px; }
+.tm-top-bar a { color: black; }
+
+.navbar-brand {
+	font-size: 2.2rem;    
+    text-transform: uppercase;    
+}
+
+.navbar {
+    font-weight: 700;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-link.active, .nav-link:hover {	
+    background-color: palevioletred;
+}	
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(104, 199, 187)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler { 
+    border-color: rgb(104, 199, 187);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.tm-banner-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.tm-banner-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.tm-banner-header { color: white; }
+.tm-banner-overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.tm-banner-bg {
+    background: url(../images/2.jpg) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+}
+.tm-banner-row { 
+    position: relative;
+    z-index: 100;
+    justify-content: center;
+    padding-top: 100px;
+}
+.tm-banner-row-header { text-align: center; }
+.tm-down-arrow-link { 
+    color: white;
+    background-color: #69c6ba;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.tm-down-arrow-link:hover,
+.tm-down-arrow-link:focus {
+    color: white;
+    background-color: #c66995;
+}
+
+
+footer {
+    background: black;
+    padding-top: 40px;
+    text-align: center;    
+    font-size: 0.8rem;
+}
+
+footer a { color: #fff; }
+
+footer a:hover { color: #900; }
+
+footer p { color: white; }
+
+.tm-footer-text-highlight {
+    color: white;
+    font-weight: 600;
+}
+#google-map { height: 600px; }
+
+@media screen and (max-width: 1080px) {
+    .tm-tab-link-li { width: 25%; }
+}
+
+@media screen and (max-width: 1033px) {
+    .tm-slideshow-description { width: 55%; }
+}
+
+@media screen and (max-width: 991px) {
+    .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 15px 20px;
+        text-align: center;
+      
+    }
+    .list_item a
+    {
+        font-weight: bold;
+    }
+
+    .tm-top-bar, .tm-top-bar-bg { height: auto; }
+
+    #mainNav {
+        width: 100%;
+        position: absolute;
+        left: 2px;
+        right: 15px;
+        top: 53px;
+        background: black;
+        opacity: .8;
+    }
+
+    .tm-top-bar {
+        height: 60px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+    }
+
+    .tm-top-bar.active .navbar-expand-lg .navbar-nav .nav-link,
+    .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 15px; }
+
+    .tm-top-bar .navbar-brand { font-size: 1.4rem; }
+
+    .tm-top-bar .navbar-brand img {
+        width: 60px;
+        height: auto;
+    }
+
+    .tm-top-bar .navbar-brand img { width: 40px; }
+
+    .tab-pane {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tm-recommended-description-box { width: 450px; }
+}
+/* =================================ye mera style part Ynha se Start hai========================== */
+@media screen and (max-width:520px){
+    .tm-tab-link {
+        padding:5px;
+    }
+
+}
+.list_item a
+{
+    background: linear-gradient(to right,rgb(142, 71, 209),rgb(194, 73, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wood
+{
+    background: linear-gradient(to right,rgb(142, 71, 209),rgb(194, 73, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
